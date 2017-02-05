@@ -1,0 +1,74 @@
+.black-bg {
+  background-color: #000; }
+
+header {
+  position: absolute;
+  width: 100%;
+  top: 0px; }
+  header .header-cta {
+    height: 30px;
+    margin-bottom: 3px;
+    background-color: rgba(0, 0, 0, 0.5); }
+    header .header-cta li {
+      line-height: 30px; }
+      header .header-cta li .header-phone {
+        max-width: 20px;
+        margin-left: 25px;
+        margin-right: 10px; }
+      header .header-cta li .header-icon {
+        max-width: 20px;
+        float: right;
+        margin-top: 5px;
+        margin-left: 10px;
+        margin-right: 10px; }
+      header .header-cta li .tel {
+        display: none; }
+        @media (min-width: 640px) {
+          header .header-cta li .tel {
+            display: inline; } }
+  header .header-nav {
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.5); }
+    header .header-nav li {
+      line-height: 70px;
+      padding-left: 15px;
+      margin-right: 10px; }
+
+li {
+  display: inline;
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  text-transform: uppercase; }
+  li a {
+    color: #fff; }
+
+.banner {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+  background-image: url("../images/lighthouse.jpg");
+  background-size: cover; }
+  .banner h1 {
+    color: white;
+    font-size: 100px;
+    text-transform: uppercase; }
+
+.fill {
+  height: 100%;
+  width: 100%; }
+
+.divider {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #000; }
+  .divider .divider-icon {
+    max-width: 50px;
+    padding-bottom: 10px; }
+  .divider p {
+    color: white;
+    text-align: center; }
