@@ -3,11 +3,10 @@
 @import "spacing";
 
 .black-bg {
-  background-color: $black;
+    background-color: $black;
 }
 
-body {
-}
+body {}
 
 nav {
     .nav-logo {}
@@ -16,13 +15,17 @@ nav {
 }
 
 p {
-  color: $white;
+    color: $white;
+}
+
+h2, h3, h4 {
+    color: $white;
 }
 
 header {
-  position: absolute;
-  width: 100%;
-  top: 0px;
+    position: absolute;
+    width: 100%;
+    top: 0;
 
     .header-cta {
         height: 30px;
@@ -87,46 +90,73 @@ li {
     height: 100%;
     width: 100%;
     overflow-y: hidden;
-    background-image: url("../images/lighthouse.jpg");
-    // background-image: url("../images/dividerbg.jpg");
+    // background-image: url("../images/lighthouse.jpg");
+    background-image: url("../images/dividerbg.jpg");
     background-size: cover;
+
     h1 {
-      color: white;
-      font-size: 100px;
-      text-transform: uppercase;
+        color: white;
+        font-size: 100px;
+        text-transform: uppercase;
     }
 }
+
 .fill {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 .divider {
-  padding-top: $padding-v-md;
-  padding-bottom: $padding-v-md;
-  background-color: $black;
+    padding-top: $padding-v-md;
+    padding-bottom: $padding-v-md;
+    background-color: $black;
 
-  .divider-icon {
-    max-width: 50px;
-    padding-bottom: $padding-v-xs;
-  }
+    .divider-icon {
+        max-width: 50px;
+        padding-bottom: $padding-v-xs;
+    }
 
-  p {
-    text-align: center;
-  }
+    p {
+        text-align: center;
+    }
 }
 
 .info {
-  position: relative;
+    position: relative;
+    background-color: $black;
+    padding-top: $padding-v-xl;
+    padding-bottom: $padding-v-xl;
+    background-image: url("../images/lighthouse-graphic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tour {
+    background-image: url("../images/rocks.jpg");
+    background-size: cover;
+    padding-top: $padding-v-xl;
+    padding-bottom: $padding-v-xl;
+
+    p {
+      padding-top: $padding-v-sm;
+      padding-bottom: $padding-v-sm;
+    }
+
+    @media (min-width: $small-up) {
+        padding-top: $padding-v-xxxl;
+        padding-bottom: $padding-v-xxxl;
+    }
+}
+
+.sponsors {
   background-color: $black;
-  padding-top: $padding-v-xl;
-  padding-bottom: $padding-v-xl;
-  background-image: url("../images/lighthouse-graphic.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  h2 {
-    color: $white;
+  padding-top: $padding-v-md;
+  padding-bottom: $padding-v-md;
+  p {
+    font-size: 12px;
   }
-
+  div {
+    padding-left: $padding-h-xs;
+    padding-right: $padding-h-xs;
+  }
 }
