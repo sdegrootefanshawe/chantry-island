@@ -1,6 +1,9 @@
 .black-bg {
   background-color: #000; }
 
+p {
+  color: #fff; }
+
 header {
   position: absolute;
   width: 100%;
@@ -70,5 +73,15 @@ li {
     max-width: 50px;
     padding-bottom: 10px; }
   .divider p {
-    color: white;
     text-align: center; }
+
+.info {
+  position: relative;
+  background-color: #000;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url("../images/lighthouse-graphic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .info h2 {
+    color: #fff; }

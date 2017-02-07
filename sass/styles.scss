@@ -15,6 +15,10 @@ nav {
     .nav-items {}
 }
 
+p {
+  color: $white;
+}
+
 header {
   position: absolute;
   width: 100%;
@@ -108,7 +112,21 @@ li {
   }
 
   p {
-    color: white;
     text-align: center;
   }
+}
+
+.info {
+  position: relative;
+  background-color: $black;
+  padding-top: $padding-v-xl;
+  padding-bottom: $padding-v-xl;
+  background-image: url("../images/lighthouse-graphic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  h2 {
+    color: $white;
+  }
+
 }
