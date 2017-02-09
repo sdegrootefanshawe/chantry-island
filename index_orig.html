@@ -20,21 +20,21 @@
                 <li>
                     <a href="https://www.youtube.com/channel/UC5BwiLq9hSIl9BZRq7Q4UNA?feature=watch" target="_blank"><img class="header-icon" src="images/youtube.svg" alt=""></a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href=""><img class="header-icon" src="images/twitter.svg" alt=""></a>
-                </li>
+                </li> -->
                 <li>
                     <a href="https://www.facebook.com/MarineHeritageSociety" target="_blank"><img class="header-icon" src="images/facebook.svg" alt=""></a>
                 </li>
             </ul>
         </div>
-        <nav class="header-nav">
+        <nav id="top" class="header-nav">
             <div class="row">
                 <a class="float-left nav-logo small-3 column" href=""><img src="images/logo_ban.png" alt="Chantry Island Logo"></a>
                 <ul class="nav-items float-right">
 
-                    <li class=""><a href="">Home</a></li>
-                    <li class=""><a href="">About</a></li>
+                    <li class=""><a href="index.html">Home</a></li>
+                    <li class=""><a href="about.html">About</a></li>
                     <li class=""><a href="">Booking</a></li>
                     <li class=""><a href="">Contact</a></li>
                     <li class=""><a href="#gallery">Gallery</a></li>
@@ -42,6 +42,10 @@
                 </ul>
             </div>
         </nav>
+
+        <div class="going-up">
+            <a href="#top"><img src="images/scroll_up.svg" alt="Scroll To Top"></a>
+        </div>
     </header>
     <section class="banner">
         <!-- <h1>Chantry Island</h1> -->
@@ -128,6 +132,22 @@
         <img src="images/f-divider/image-12.jpg" alt="" class="small-1 column">
 
     </div>
+    </section>
+
+    <section class="contact-form">
+      <div class="row">
+        <form method="post" class="column">
+            <label for="">Name:</label>
+            <input name="name" type="text">
+            <label for="">Company:</label>
+            <input name="company" type="text">
+            <label for="">Email:</label>
+            <input name="email" type="text">
+            <label for="">Message</label>
+            <textarea name="msg" cols="30" rows="10"></textarea>
+            <input class="button column" id="button" type="submit" value="Send">
+          </form>
+      </div>
     </section>
 
     <script src="js/main.js"></script>
